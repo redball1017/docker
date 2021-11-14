@@ -15,4 +15,4 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Build the Docker image
-      run: docker build . --file Dockerfile --tag rocker-example:$(date +%s) && docker push redball1017/rocker-example:tagname
+      run: docker push redball1017/rocker-example:tagname
